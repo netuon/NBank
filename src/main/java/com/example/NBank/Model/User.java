@@ -1,6 +1,6 @@
 package com.example.NBank.Model;
 
-import com.example.NBank.Model.Account;
+
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -15,7 +15,7 @@ import java.time.LocalDate;
 @AllArgsConstructor
 public class User {
     @Id
-    private int cpf;
+    private String cpf;
     private String nome;
     private LocalDate dataDeNascimento;
     private String email;
